@@ -3,6 +3,12 @@ import java.util.Random;
 
 public class A7_main {
 
+    public static void main (String [] args) {
+
+        int [] test = {1,2,3,4,5};
+        System.out.println(java.util.Arrays.toString(go(1,test)));
+    }
+
     private static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];
