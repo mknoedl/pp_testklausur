@@ -4,14 +4,10 @@ public class A1_main {
 
     public static void main(String[] args) {
 
-        int [] a1 = new int[5];
-        int [] b1 = new int[5];
-        int [] b2 = new int[7];
-        int [] b3 = new int[7];
-        a1 = new int[]{8, 5, 8, 7, 3};
-        b1 = new int[]{4,3,3,5,8};
-        b2 = new int[]{6,3,4,7,8,7,1};
-        b3 = new int[]{2,3,4,0,8,-7,1};
+        int [] a1 = new int[]{8, 5, 8, 7, 3};
+        int [] b1 = new int[]{4,3,3,5,8};
+        int [] b2 = new int[]{6,3,4,7,8,7,1};
+        int [] b3 = new int[]{2,3,4,0,8,-7,1};
 
         System.out.println(java.util.Arrays.toString(findDiff(2,a1,b1)));
         System.out.println(java.util.Arrays.toString(pick(7,b2)));
